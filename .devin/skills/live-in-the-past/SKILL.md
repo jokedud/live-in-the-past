@@ -35,6 +35,15 @@ Machine-readable / API-friendly:
 - **Aviation Safety Network** (aviation-safety.net) — dated accidents/incidents since 1919.
 - **SEC EDGAR full-text** (sec.gov/edgar/search) — dated filings, exec hires, disclosures, 1994+.
 
+News-network and front-page archives (date-filtered, and the fix for link rot):
+- **Wayback Machine CDX API** (web.archive.org/cdx/search) — pull snapshots of a news site's front page on an exact date (cnn.com, nytimes.com, bbc.co.uk on your simulated day); also rescues any dead link — swap the live URL for its closest archive.org snapshot. timetravel.mementoweb.org aggregates across web archives when Wayback is thin.
+- **NYT TimesMachine** (timesmachine.nytimes.com) — every NYT front page and article since 1851, browsable by exact date; Article Search API also filters by date (free key).
+- **Guardian Open Platform** (open-platform.theguardian.com) — free API, filters by exact date, 1999–present.
+- **AP Archive** (aparchive.com) — AP wire video/stories by date.
+- **UPI Archives** (upi.com/Archives) — dated wire stories back to 1907, incl. odd/obscure items.
+- **CNN transcripts** (transcripts.cnn.com) — dated transcripts of what aired.
+- **BBC On This Day** (bbc.co.uk/onthisday) — real BBC stories filed on each date, 1950–2005.
+
 Dated article archives (search by exact date):
 - **Fulton History** (fultonhistory.com) — obscure NY/northeast small papers, 1700s–present.
 - **Elephind** (elephind.com) — meta-search of free newspaper collections worldwide.
